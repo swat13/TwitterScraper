@@ -1,8 +1,13 @@
-﻿const url = 'http://localhost:8080/twitter/GetHotTopicsCount';
+const url = 'http://localhost:8080/twitter/GetHotTopicsCount';
 fetchData(false);
+const timer = document.getElementById("timer");
 setInterval(() => {
     fetchData(true);
+    timer.innerHTML = "07";
 }, 6000)
+setInterval(() => {
+    timer.innerHTML = "0" + (+timer.innerHTML - 1);
+}, 1000)
 const allCharts = [];
 function fetchData(update) {
     fetch(url)
