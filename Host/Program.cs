@@ -9,6 +9,7 @@ namespace Host
 {
     public static class Program
     {
+        //
         private static void Main(string[] args)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
