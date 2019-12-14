@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Twitter.Controller.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Consumer_API_Keys" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">jB2Sygsi4MQI7k7Plt4Gyq2Co</Value>
+    </Setting>
+    <Setting Name="Consumer_API_Secret_Keys" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0HbEgFAAGfR1nb2bwoQUMuj1hohbbWevO51M5BHjMkhN9bgOwO</Value>
+    </Setting>
+    <Setting Name="Twitter_Authentication_Url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.twitter.com/oauth2/token</Value>
+    </Setting>
+    <Setting Name="ali" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.twitter.com/1.1/search/tweets.json</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
